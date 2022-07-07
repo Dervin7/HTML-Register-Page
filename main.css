@@ -1,16 +1,15 @@
 body {
-    background-color: #76c8ff;
+    background-color: darkslateblue;
     margin: 0;
-    font-family: sans-serif;
-    display: table;
+    display: flex;
     height: 100vh
 }
 
 header {
-    background-color: white;
+    background-color: grey;
     text-align: right;
     padding: .75rem 0;
-    border-bottom: solid 1px dimgrey;
+    border-bottom: solid 1px black;
     box-shadow: 
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -22,26 +21,30 @@ header {
 
 header a {
     color: white;
-    background-color: #13a0ff;
-    border: solid 1px gray;
+    background-color: darkslateblue;
+    border: solid 1px black;
     border-radius: 3px;
     padding: .25rem .5rem;
     margin-right: .5rem;
     line-height: 1.5rem;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 header a:hover, form button:hover {
-    background-color: #1084d1;
+    background-color: darkslateblue;
     cursor: pointer;
+    font-family: sans-serif;
 }
 
 .container {
     margin: auto;
     padding: 1.5rem;
-    background-color: white;
-    border: solid 1px gray;
-    border-radius: 5px;
+    background-color: grey;
+    background-size: auto;
+    border: solid 1px black;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
     box-shadow: 
     0 4px 8px 0 rgba(0, 0, 0, 0.2)
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -49,6 +52,7 @@ header a:hover, form button:hover {
 
 .container > h1 {
     margin: 0 0 .5rem;
+    font-family: serif;
 }
 
 form input, form button {
@@ -59,18 +63,20 @@ form input, form button {
     padding: .25rem;
     line-height: 1.5rem;
     font-size: 1em;
-    border: solid 1px gray;
+    font-family: sans-serif;
+    border: solid 1px black;
     border-radius: 3px;
 }
 
 form button {
     color: white;
-    background-color: #13a0ff;
+    background-color: darkslateblue;
+    border: solid 1px black;
 }
 
 footer {
     margin-top: .75rem;
-    border-top: solid 1px lightgray;
+    border-top: solid 1px black;
     padding-top: 1rem;
     text-align: center;
 }
